@@ -6,7 +6,7 @@ import (
 	"gobot.io/x/gobot/platforms/keyboard"
 )
 
-func keyBoardInput(drone *tello.Driver) {
+func KeyBoardInput(drone *tello.Driver) {
 	keys := keyboard.NewDriver()
 
 	keys.On(keyboard.Key, func(data interface{}) {
